@@ -6,7 +6,7 @@
 
 local cities = { "北京", "上海", "广州" }
 cities[4] = "深圳"
-print(cities) -- table: 00C5A680，NOTE: 这里打印的是内存地址
+print(cities)    -- table: 00C5A680，NOTE: 这里打印的是内存地址
 print(cities[0]) -- nil
 print(cities[5]) -- nil
 print()
@@ -64,9 +64,9 @@ print()
 -- map不会占据索引值
 
 local tmp = { "张三", age = 18, "李四", city = "Beijing" }
-print(tmp[1]) -- 张三
-print(tmp[2]) -- 李四
-print(tmp.age) -- 18
+print(tmp[1])   -- 张三
+print(tmp[2])   -- 李四
+print(tmp.age)  -- 18
 print(tmp.city) -- Beijing
 print()
 

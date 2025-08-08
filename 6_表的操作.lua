@@ -29,9 +29,9 @@ print(table.concat(emp, ",", 2, 3)) -- 上海,广州
 -- t.n -- 3,意味着有3个元素
 
 -- 3. table.maxn
-print(table.maxn(emp))  -- 4
+print(table.maxn(emp)) -- 4
 
 
 emp[8] = "天津"
-print(table.maxn(emp))  -- 8
-print(table.concat(emp, ","))  -- 北京,上海,广州,深圳。不会输出天津，因为原本只有4个数组元素，然后指定第8个为天津，没有连续，所以不会输出。但是如果改8为5,就会打印出“天津”
+print(table.maxn(emp))        -- 8
+print(table.concat(emp, ",")) -- 北京,上海,广州,深圳。不会输出天津，因为原本只有4个数组元素，然后指定第8个为天津，没有连续，所以不会输出。但是如果改8为5,就会打印出“天津”

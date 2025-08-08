@@ -7,11 +7,11 @@ local function foo(a, b)
 end
 
 -- 不传参
-foo() -- 输出: nil nil
+foo()        -- 输出: nil nil
 -- 传一个参数
-foo(1) -- 输出: 1 nil
+foo(1)       -- 输出: 1 nil
 -- 传两个参数
-foo(1, 2) -- 输出: 1 2
+foo(1, 2)    -- 输出: 1 2
 -- 传三个参数
 foo(1, 2, 3) -- 输出: 1 2
 
@@ -23,11 +23,11 @@ end
 
 print()
 -- 不传参
-bar() -- 输出: nil nil
+bar()        -- 输出: nil nil
 -- 传一个参数
-bar(1) -- 输出: 1 nil
+bar(1)       -- 输出: 1 nil
 -- 传两个参数
-bar(1, 2) -- 输出: 1 2
+bar(1, 2)    -- 输出: 1 2
 -- 传三个参数
 bar(1, 2, 3) -- 输出: 1 2
 
